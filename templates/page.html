@@ -1,0 +1,13 @@
+<div class="tabs-content" ng-click="hideElemChange(); saveText()">
+    <p class="contents">Кликните в любом месте этой закладки и вы сможите ввести свой текст : <span
+            class="red"></span></p>
+    <div>
+        <textarea autofocus onclick="event.stopPropagation()" rows="7" cols="45" name="text" ng-model="myText"
+                  ng-hide="hideElem" placeholder="Введите ваш текст...">
+        </textarea>
+        <span>{{myNewText}}</span>
+    </div>
+</div>
+
+
+

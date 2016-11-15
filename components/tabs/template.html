@@ -1,0 +1,6 @@
+<ul class="tabs">
+    <li ng-repeat="tab in  tabs.tabs" id={{tab.name}} ng-click="sendTab(tab);">
+        <a ui-sref="tabs({ cat: 'tab-name', page: tab.name })" ui-sref-active="active">{{tab.name}}</a>
+        <button class="dell" ng-click="removeNum(tab)">{{dell}}</button>
+    </li>
+</ul>

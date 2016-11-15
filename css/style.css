@@ -1,0 +1,81 @@
+@import "../components/tabs/style.css" screen;
+
+.tabs-content {
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+    background-color: aqua;
+    margin-left: 3%;
+}
+
+#three p {
+    text-align: left;
+}
+
+#wpapper {
+    margin-top: 3%;
+}
+
+#add {
+    margin-left: 3%;
+    margin-top: 2%;
+    cursor: pointer;
+    width: 15%;
+    height: 49px;
+    color: greenyellow;
+    background-color: green;
+}
+
+#dell-tabs {
+    margin-left: 3%;
+    margin-top: 2%;
+    cursor: pointer;
+    width: 15%;
+    height: 49px;
+    color: greenyellow;
+    background-color: red;
+}
+
+#add:hover {
+    background-color: red;
+    color: white;
+}
+
+#dell-tabs:hover {
+    background-color: green;
+    color: white;
+}
+
+button.dell {
+    margin-top: 7%;
+    cursor: pointer;
+}
+
+button.dell:hover {
+    background-color: black;
+    color: white;
+}
+
+.tabs-content p {
+    width: 90%;
+    display: block;
+}
+
+.tabs-content {
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+textarea {
+    display: block;
+    float: left;
+}
+
+p.contents {
+    text-transform: uppercase;
+}
+
+.red {
+    color: red;
+}
+
